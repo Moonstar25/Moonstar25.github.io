@@ -35,3 +35,44 @@
     color: yellow;
     margin: 24px; 
 }
+
+#list-of-items {
+    text-decoration: underline;
+}
+
+#post-it-4 {
+    text-align: center;
+    background-color: aqua;
+}
+
+#post-it-5 {
+    text-align: left;
+    background-color: crimson;
+    color: gold;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#wet-and-splash {
+    color: cornflowerblue;
+    text-align: right;
+    font-family: 
+        Cambria, 
+        Cochin, 
+        Georgia, 
+        Times, 
+        'Times New Roman', 
+        serif;
+    font-weight: bold;
+}
+
+#post-it-6 {
+    background-color: navy;
+    color: skyblue;
+    text-align: left;
+    font-family: 
+        Verdana, 
+        Geneva, 
+        Tahoma, 
+        sans-serif;
+}
