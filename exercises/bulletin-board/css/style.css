@@ -28,12 +28,14 @@
 
 #post-it-2 {
     background-color: pink;
+    display: inline-block;
 }
 
 #post-it-3 {
     background-color: green;
     color: yellow;
     margin: 24px; 
+    display: inline-block;
 }
 
 #list-of-items {
@@ -43,6 +45,7 @@
 #post-it-4 {
     text-align: center;
     background-color: aqua;
+    display: inline-block;
 }
 
 #post-it-5 {
@@ -51,6 +54,7 @@
     color: gold;
     font-size: 24px;
     font-style: italic;
+    display: inline-block;
 }
 
 #wet-and-splash {
@@ -75,4 +79,5 @@
         Geneva, 
         Tahoma, 
         sans-serif;
+    display: inline-block;
 }
