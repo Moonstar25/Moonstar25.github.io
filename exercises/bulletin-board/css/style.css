@@ -57,6 +57,10 @@
     padding: 24px;
 }
 
+#godzilla-in-the-clouds {
+    width: 90px;
+}
+
 #post-it-5 {
     text-align: left;
     background-color: crimson;
@@ -81,10 +85,8 @@
     color: skyblue;
     text-align: left;
     font-family: 
-        Verdana, 
-        Geneva, 
-        Tahoma, 
-        sans-serif;
+        Verdana, Geneva, 
+        Tahoma, sans-serif;
     display: inline-block;
     width: 200px;
     height: 200px;
