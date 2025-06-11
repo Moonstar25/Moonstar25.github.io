@@ -1,0 +1,45 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+
+.tetris-block {
+    border-width: 12px;
+    border-style: outset;
+    padding: 24px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    border-color: crimson;
+}
+
+.blue {
+    background-color: blue;
+    border-color: navy;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: goldenrod;
+}
+
+.green {
+    background-color: green;
+    border-color: greenyellow;
+}
+
+.orange {
+    background-color: rgb(246, 185, 72);
+    border-color: orange;
+}
+
+.violet {
+    background-color: purple;
+    border-color: violet;
+}
