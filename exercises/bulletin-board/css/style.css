@@ -19,10 +19,8 @@
 #play-and-win {
     color: red;
     font-family: 
-        Impact, 
-        Haettenschweiler, 
-        'Arial Narrow Bold', 
-        sans-serif;
+        Impact, Haettenschweiler, 
+        'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 
@@ -44,7 +42,7 @@
 
 #post-it-4 {
     text-align: center;
-    background-color: aqua;
+    background-color: white;
     display: inline-block;
 }
 
@@ -61,12 +59,9 @@
     color: cornflowerblue;
     text-align: right;
     font-family: 
-        Cambria, 
-        Cochin, 
-        Georgia, 
-        Times, 
-        'Times New Roman', 
-        serif;
+        Cambria, Cochin, 
+        Georgia, Times, 
+        'Times New Roman', serif;
     font-weight: bold;
 }
 
