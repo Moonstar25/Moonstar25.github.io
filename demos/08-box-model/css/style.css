@@ -1,0 +1,23 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     margin: 0px;
+     font-family: sans-serif;
+}
+
+div {
+    border: 10px dashed red;
+    margin: 24px 12px;
+    padding: 24px;
+    background-color: aqua;
+}
+
+p {
+    border: 20px ridge blue;
+    margin: 60px;
+    padding: 40px;
+    background-color: cornflowerblue;
+    border-radius: 48px;
+}
