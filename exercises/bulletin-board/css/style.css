@@ -30,7 +30,6 @@
     width: 200px;
     height: 200px;
     margin: 24px;
-    padding: 24px;
 }
 
 #post-it-3 {
@@ -40,7 +39,6 @@
     display: inline-block;
     width: 200px;
     height: 200px;
-    padding: 24px;
 }
 
 #list-of-items {
@@ -58,7 +56,6 @@
     width: 200px;
     height: 200px;
     margin: 24px;
-    padding: 24px;
 }
 
 #godzilla-in-the-clouds {
@@ -95,5 +92,4 @@
     width: 200px;
     height: 200px;
     margin: 24px;
-    padding: 24px;
 }
