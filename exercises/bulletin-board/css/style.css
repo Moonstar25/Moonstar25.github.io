@@ -47,6 +47,10 @@
     text-decoration: underline;
 }
 
+#block-style {
+    display: block; 
+}
+
 #post-it-4 {
     text-align: center;
     background-color: white;
