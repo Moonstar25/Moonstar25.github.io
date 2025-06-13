@@ -12,14 +12,36 @@
     margin: 25px; 
     border: 12px solid blue;
     padding: 20px;
-    background-color: turquoise;
+    background-color: rgb(207, 255, 250);
     display: inline-block;
 }
 
 .my-art-gallery {
-    padding: 20;
+    padding: 14px;
+    border: 10px solid black;
     display: inline-block;
     background-color: blueviolet;
-    margin: 25px;
-    border: 20px; 
+    margin: 5px; 
+}
+
+.showing-area {
+    text-align: center;
+}
+
+.lady-liberty {
+    width: 50px;
+    margin: 25px; 
+    border: 10px solid burlywood;
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+.hulk {
+    width: 50px;
+    margin: 25px; 
+    border: 12px solid darkgreen;
+    padding: 20px;
+    background-color: purple;
+    display: inline-block;
 }
