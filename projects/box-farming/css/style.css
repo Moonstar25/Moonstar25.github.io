@@ -1,0 +1,25 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.absolute-image {
+    width: 50px;
+    margin: 25px; 
+    border: 12px solid blue;
+    padding: 20px;
+    background-color: turquoise;
+    display: inline-block;
+}
+
+.my-art-gallery {
+    padding: 20;
+    display: inline-block;
+    background-color: blueviolet;
+    margin: 25px;
+    border: 20px; 
+}
