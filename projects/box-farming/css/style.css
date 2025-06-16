@@ -22,6 +22,8 @@
     display: inline-block;
     background-color: blueviolet;
     margin: 5px; 
+    font-style: italic;
+    width: 250px;
 }
 
 .showing-area {
