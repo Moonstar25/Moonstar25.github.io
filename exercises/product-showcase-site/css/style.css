@@ -8,24 +8,28 @@ body {
 }
 
 .product-showcase {
-    /* background-color: peachpuff;     */
+    background-color: peachpuff;    
+  }
+
+div h1 {
+    text-align: center;
+}
+
+.cinnamon-toast-crunch {
+    padding: 48px 0px;
     width: 50%;
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
-div h1 {
-    text-align: center;
-}
-
-.light-container {
-    background-color: aquamarine;
+.eggo-buttermilk {
+    background-color: yellow;
+    color: red;
     padding: 48px 0px;
-}
-
-.dark-container {
-    background-color: rgb(6, 86, 59);
-    color: white;
-    padding: 48px 0px;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-image: auto;
 }
