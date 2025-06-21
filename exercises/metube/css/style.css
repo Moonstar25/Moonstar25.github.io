@@ -21,11 +21,7 @@ body {
     /* background-color: lightgreen; */
     grid-area: header;
     padding: 0px 36px;
-    background: linear-gradient(
-        to bottom right, 
-        rgb(94, 94, 94), 
-        rgb(194, 194, 194)
-    ); 
+    background: linear-gradient(to bottom right,silver, darkgray, black);
 }
 
 /* grid item */
@@ -33,11 +29,7 @@ body {
     /* background-color: lightcyan; */
     grid-area: sidebar;
     padding: 0px 24px;
-    background: linear-gradient(
-        to bottom right, 
-        rgb(194, 194, 194),
-        rgb(94, 94, 94)
-    ); 
+    background: linear-gradient(to top left,silver, darkgray, black);
 }
 
 /* grid item */
@@ -47,11 +39,7 @@ body {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(
-        to top right, 
-        rgb(94, 94, 94), 
-        rgb(194, 194, 194)
-    );
+    background: linear-gradient(to top right,silver, darkgray, black);
 }
 
 #header a {
