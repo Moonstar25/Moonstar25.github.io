@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* flexbox container  */
+#three-columns {
+    display: flex;
+}
+
+/* flexbox item */
+#thumbnails img {
+    width: 100px;
+    margin: 36px;
+}
+
+#thumbnails {
+    background-color: blue;
+}
+
+#header {
+    background-color: aquamarine;
+}
