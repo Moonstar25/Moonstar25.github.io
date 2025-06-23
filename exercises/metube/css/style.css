@@ -113,3 +113,20 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+
+#sidebar i {
+    width: 30px;
+}
+
+#sidebar h3 {
+    color: white;
+    padding-left: 10px;
+}
+
+#header a:hover #me {
+    color: white;
+}
+
+#header a:hover #tube {
+    color: grey;
+}
