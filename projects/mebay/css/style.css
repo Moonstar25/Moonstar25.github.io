@@ -10,22 +10,42 @@ body {
 /* grid container  */
 #three-columns {
     display: grid;
-    grid-template-columns: 120px 1fr 475px 40px;
+    grid-template-columns: 1fr 120px 475px 600px 1fr;
     grid-template-areas:
         "header header header header header"
         ". thumbnails main product-info .";
 }
 
-/* flexbox item */
+/* grid item */
+#header {
+    grid-area: header;
+    display: block;
+}
+
+/* grid item */
 #thumbnails img {
     width: 80px;
     margin: 20px;
     border-radius: 15px;
 }
 
+/* grid item */
 #thumbnails {
-    grid-area: "thumbnails";
+    grid-area: thumbnails;
     display: block;
+}
+
+/* grid item */
+#main {
+    grid-area: main;
+    display: block;
+}
+
+/* grid item */
+#product-info {
+    grid-area: product-info;
+    display: block;
+    padding-left: 150px;
 }
 
 #header {
@@ -36,16 +56,122 @@ body {
     font-size: 48px;
     margin: 0px;
     padding: 12px;
-    font-weight: bold;
 }
 
 #main img {
-    width: 500px;
-    padding: 20px;
-    margin-left: 0px;
+    width: 600px;
+    padding: 30px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 25px;
+    margin-top: 25px;
+    
 }
 
 #thumbnails .thumbnail-container {
     border: 2px solid black;
     border-radius: 15px;
+    margin-top: 25px;
+}
+
+#product-info h1 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 12px;
+}
+
+#seller-links #goji a {
+    font-weight: bold;
+    color: black;
+    padding: 16px 0px;
+}
+
+#goji-info  {
+    padding: 16px 0px;
+    border-bottom: 1px solid gray;
+}
+
+#goji-info a {
+    color: black;
+}
+
+#price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0px;
+}
+
+#payment span {
+    font-weight: bold;
+}
+
+#learn-more a {
+    color: black;
+}
+
+#learn-more {
+    border-bottom: 1px solid gray;
+    padding-bottom: 24px;
+}
+
+#condition span {
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#condition {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#buttons a {
+    display: block;
+    border: 1px solid blue;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+
+#buttons a.blue {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#buttons a:hover {
+    color: rgb(146, 146, 252);
+}
+
+#wants span {
+    font-weight: bold;
+}
+
+#wants {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#wants i {
+    font-size: 24px;
+}
+
+#return span {
+    font-weight: bold;
+}
+
+#return {
+    padding-top: 12px;
+}
+
+#return i {
+    font-size: 24px;
+}
+
+#information {
+    display: block;
+    background-color: rgb(146, 146, 252);
+    border-radius: 20px;
+    padding: 0px 24px;
+    padding-bottom: 12px;
 }
