@@ -58,6 +58,26 @@ body {
     padding: 12px;
 }
 
+#header .m {
+    color: purple;
+}
+
+#header .e {
+    color: red;
+}
+
+#header .b {
+    color: blue;
+}
+
+#header .a {
+    color: goldenrod;
+}
+
+#header .y {
+    color: yellowgreen;
+}
+
 #main img {
     width: 600px;
     padding: 30px;
