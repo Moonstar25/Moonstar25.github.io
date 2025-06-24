@@ -7,21 +7,45 @@ body {
     font-family: sans-serif;
 }
 
-/* flexbox container  */
+/* grid container  */
 #three-columns {
-    display: flex;
+    display: grid;
+    grid-template-columns: 120px 1fr 475px 40px;
+    grid-template-areas:
+        "header header header header header"
+        ". thumbnails main product-info .";
 }
 
 /* flexbox item */
 #thumbnails img {
-    width: 100px;
-    margin: 36px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 #thumbnails {
-    background-color: blue;
+    grid-area: "thumbnails";
+    display: block;
 }
 
 #header {
-    background-color: aquamarine;
+    border-bottom: 1px solid gray;
+}
+
+#header h1 {
+    font-size: 48px;
+    margin: 0px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#main img {
+    width: 500px;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+#thumbnails .thumbnail-container {
+    border: 2px solid black;
+    border-radius: 15px;
 }
