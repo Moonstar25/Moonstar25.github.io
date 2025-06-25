@@ -133,13 +133,11 @@ body {
 }
 
 #condition span {
-    padding-left: 30px;
     font-weight: bold;
 }
 
 #condition {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 12px 0px;
 }
 
 #buttons a {
@@ -168,8 +166,7 @@ body {
 }
 
 #wants {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 24px;
 }
 
 #wants i {
@@ -181,7 +178,7 @@ body {
 }
 
 #return {
-    padding-top: 12px;
+    padding: 12px 24px;
 }
 
 #return i {
@@ -192,6 +189,5 @@ body {
     display: block;
     background-color: rgb(146, 146, 252);
     border-radius: 20px;
-    padding: 0px 24px;
     padding-bottom: 12px;
 }
