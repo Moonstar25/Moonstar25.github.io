@@ -43,3 +43,13 @@
     justify-content: space-between;
     font-size: 24px;
 }
+
+.card-style-2 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.card-style-2 .brand-name {
+    padding-top: 12px;
+}
