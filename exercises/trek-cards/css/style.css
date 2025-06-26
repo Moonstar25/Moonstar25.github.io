@@ -34,7 +34,6 @@
     font-size: 20px;
     background-color: green;
     padding: 24px;
-    width: 100%;
     text-align: center;
     transition: opacity 0.5s;       
 }
