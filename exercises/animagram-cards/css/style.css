@@ -14,27 +14,32 @@
     margin: 16px;
     border: 2px solid white;
     border-radius: 40px;
+    padding: 25px; 
 }
 
 .card-style-2 img {
-    width: 100%;
+    width: 200px;
     border-radius: 50%;
+    text-align: center;
 }
 
 .profile-pic-container {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    padding: 60px;
+    text-align: center;
+    padding-top: 36px;
 }
 
-.card-style-2 h2,
-.card-style-2 p {
-    padding: 0px 24px;
+.card-style-2 h2 {
     text-align: center;
+}
+
+.card-style-2 p {
+    text-align: center;
+    padding-bottom: 33px;
 }
 
 .card-style-2 .animagram-footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
 }
