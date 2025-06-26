@@ -7,3 +7,34 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
+.card-style-2 {
+    max-width: 350px;
+    background-color: white;
+    margin: 16px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.card-style-2 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.card-style-2 h2,
+.card-style-2 p {
+    padding: 0px 24px;
+    text-align: center;
+}
+
+.card-style-2 .animagram-footer {
+    text-align: center;
+    font-size: 24px;
+}
