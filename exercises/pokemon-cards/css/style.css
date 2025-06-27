@@ -9,17 +9,19 @@
 */
 
 .card-style-3 {
-    max-width: 350px;
+    width: 350px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
     margin: 16px;
     padding: 0px 20px; 
     border: 16px solid gold;
     border-radius: 25px;
-
 }
 
 .card-style-3 img {
-    width: 270px;
-    text-align: center;
+    border: 5px solid goldenrod;
+    margin-top: 0px;
 }
 
 #pokemon-card-1 {
@@ -49,8 +51,51 @@
     );
 }
 
+#pokemon-card-4 {
+    background: linear-gradient(
+        to top left, 
+        rgb(0, 255, 247),
+        rgb(2, 163, 187),
+        rgb(0, 255, 247)
+    );
+
+}
+
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 33px;
+}
+
+.card-style-3 .pokemom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-style-3 .name {
+    padding: 0px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.card-style-3 .details {
+    background-color: goldenrod;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
+.card-style-3 .bold {
+    font-weight: bold;
+}
+
+.card-style-3 .data {
+    border: 2px solid goldenrod;
+    padding: 3px;
+    font-size: 10px;
 }
