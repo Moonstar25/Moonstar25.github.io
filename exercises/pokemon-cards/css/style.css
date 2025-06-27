@@ -10,12 +10,47 @@
 
 .card-style-3 {
     max-width: 350px;
+    margin: 16px;
+    padding: 0px 20px; 
+    border: 16px solid gold;
+    border-radius: 25px;
+
+}
+
+.card-style-3 img {
+    width: 270px;
+    text-align: center;
+}
+
+#pokemon-card-1 {
+    background: linear-gradient(
+        to top left, 
+        rgb(222, 236, 222), 
+        green, 
+        rgb(222, 236, 222)
+    );
+}
+
+#pokemon-card-2 {
+    background: linear-gradient(
+        to top left, 
+        rgb(222, 236, 222), 
+        green, 
+        rgb(222, 236, 222)
+    );
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(
+        to top left, 
+        rgb(245, 139, 73),
+        rgb(202, 52, 6),
+        rgb(245, 139, 73)
+    );
 }
 
 .card-container {
-    margin: 16px;
-    border: 2px solid black;
-    padding: 25px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
