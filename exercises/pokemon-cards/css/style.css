@@ -76,9 +76,9 @@
 .card-style-3 .details {
     background-color: goldenrod;
     margin-top: 6px;
-    font-size: 11px;
+    font-size: 72%;
+    font-style: italic;
     font-weight: bold;
-    padding: 3px;
     text-align: center;
 }
 
@@ -89,8 +89,9 @@
 
 .card-style-3 .data {
     border: 2px solid goldenrod;
-    padding: 3px;
-    font-size: 10px;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .card-style-3 .health {
