@@ -75,6 +75,10 @@
 
 .card-style-3 .details {
     background-color: goldenrod;
+    background: radial-gradient(
+        rgb(248, 206, 100), 
+        goldenrod
+    );
     margin-top: 6px;
     font-size: 72%;
     font-style: italic;
