@@ -26,6 +26,7 @@ h1 {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 5vw;
     font-weight: bold;
+    text-shadow: 5px 5px 10px navy;
 }
 
 #hero a {
