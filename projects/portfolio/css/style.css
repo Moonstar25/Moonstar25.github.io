@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+#hero a {
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 8px;
+    color: white;
+    background-color: navy;
+}
+
+.gallery-work {
+    columns: 3 auto;
+    column-gap: 24px;
+    border: 10px solid navy;
+    padding: 12px;
+    margin-bottom: 24px;
+    background-color: rgb(187, 212, 250);
+}
+
+.gallery-work img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#single-column {
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.card {
+    border: 5px solid navy;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    background-color: rgb(187, 212, 250);
+}
+
+.card h3 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 4vw;
+    margin: 0px;
+    color: white;
+}
+
+.card a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: navy;
+}
