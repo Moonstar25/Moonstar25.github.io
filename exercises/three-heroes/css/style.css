@@ -66,8 +66,8 @@ body {
 #hero-2 a {
     font-size: 1vw;
     display: inline-block;
-    background-color: pink;
-    color: magenta;
+    background-color: rgb(249, 92, 118);
+    color: white;
     text-decoration: none;
     padding: 24px;
     position: absolute;
@@ -93,7 +93,7 @@ body {
 }
 
 #hero-3 h3 {
-    color: pink;
+    color: rgb(110, 68, 75);
     font-size: 3vw;
 }
 
@@ -101,6 +101,6 @@ body {
     text-decoration: none;
     font-size: 1vw;
     color: white;
-    background-color: aquamarine;
+    background-color: rgb(29, 106, 80);
     padding: 12px;
 }
