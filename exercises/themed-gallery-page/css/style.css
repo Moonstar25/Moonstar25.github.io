@@ -41,3 +41,7 @@ body {
 .basic-grid-gallery img {
     width: 100%;
 }
+
+.hero-content {
+    padding: 56px;
+}
