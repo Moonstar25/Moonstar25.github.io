@@ -59,15 +59,16 @@ h1 {
 
 #card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 36px;
 }
 
 .card {
+    flex: 1;
     border: 5px solid navy;
-    padding: 36px;
+    padding: 5px;
     text-align: center;
-    margin: 36px 0px;
+    margin: 24px 0px;
     background-color: rgb(187, 212, 250);
 }
 
