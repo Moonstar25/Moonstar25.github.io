@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/road-texture-2.jpg");
 }
 
 #hero {
@@ -76,7 +77,7 @@ h1 {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 4vw;
     margin: 0px;
-    color: white;
+    color: rgb(24, 1, 77);
 }
 
 .card a {
