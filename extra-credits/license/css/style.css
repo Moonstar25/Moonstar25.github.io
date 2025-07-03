@@ -15,7 +15,7 @@
     background: linear-gradient(
         to top left, 
         rgb(232, 115, 37), 
-        rgb(235, 177, 139)
+        rgb(253, 228, 212)
     );
 }
 
@@ -93,6 +93,7 @@
 #donor {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 20px;
     padding-left: 24px;
     color: red;
     margin-left: 30px;
@@ -106,7 +107,8 @@
     border-radius: 50%;
     background-color: yellow;
     display: inline-block;
-    margin: 12px 23px;
+    margin-left: 27px;
+    margin-top: 12px;
 }
 
 #license h1 {
