@@ -9,14 +9,18 @@
 
 #license {
     width: 700px;
-    border: 24px;
-    border-radius: 50%;
+    border: 2px solid black;
+    border-radius: 5%;
     padding: 24px;
+    background: linear-gradient(
+        to top left, 
+        rgb(232, 115, 37), 
+        rgb(235, 177, 139)
+    );
 }
 
 #left-side {
     display: inline-block;
-    width: 65%;
 }
 
 #right-side {
@@ -26,6 +30,16 @@
 
 #id-and-expiration div {
     display: inline-block;
+    padding-bottom: 24px;
+    color: blue;
+    font-size: 20px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #small-pic-container {
@@ -34,10 +48,7 @@
 
 #data-fields {
     display: inline-block;
-}
-
-#small-pic-container img {
-    width: 60px;
+    margin-right: 62px;
 }
 
 #data-left {
@@ -56,6 +67,8 @@
     color: navy;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
+    margin-left: 20px;
+    margin-top: 12px;
 }
 
 #data-right span {
@@ -69,11 +82,12 @@
     margin: 12px;
     font-style: italic;
     font-family: cursive;
+    font-size: 20px;
     
 }
 
 #right-side img {
-    width: 100%;
+    width: 125%;
 }
 
 #donor {
@@ -81,7 +95,7 @@
     font-weight: bold;
     padding-left: 24px;
     color: red;
-    margin: 12px;
+    margin-left: 30px;
     display: inline-block;
 }
 
@@ -92,13 +106,14 @@
     border-radius: 50%;
     background-color: yellow;
     display: inline-block;
-    margin: 12px;
+    margin: 12px 23px;
 }
 
 #license h1 {
     color: navy;
-    margin: 12px;
+    margin: 0px;
     font-weight: 500px;
+    font-size: 50px;
 }
 
 #address {
@@ -109,6 +124,7 @@
         Calibri, 
         'Trebuchet MS', 
         sans-serif;
+    font-size: 20px;
 }
 
 h4 {
@@ -117,6 +133,12 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: navy;
-    padding: 18px;
-    margin: px;
+    padding: 18px 0px;
+}
+
+#small-pic-container img {
+    width: 90px;
+    display: inline-block;
+    margin-top: 12px;
+    opacity: 50%;
 }
