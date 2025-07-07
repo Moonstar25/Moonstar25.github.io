@@ -25,7 +25,98 @@ body {
     top: 0px;
 }
 
-#navbar h1 {
-    margin-right: 64%;
-    color: #451b04;
+#navbar #name {
+    margin-right: auto;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(39, 232, 39);
+}
+
+#navbar-2 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(230, 187, 109), r
+        gb(255, 170, 12)
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: yellow;
+    padding: 30px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-2 #name-2 {
+    margin-right: auto;
+    font-size: 30px;
+    color: yellow;
+}
+
+#navbar-2 .cta-button {
+    background-color: white;
+    color: orange;
+    border-radius: 36px;
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#navbar-3 {
+    background: linear-gradient(to bottom, green, #3E6D3E);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-3 #name-3 {
+    margin-right: auto;
+    font-size: 40px;
+}
+
+#navbar-3 .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
 }
