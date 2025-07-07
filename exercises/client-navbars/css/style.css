@@ -74,7 +74,12 @@ body {
 }
 
 #navbar-3 {
-    background: linear-gradient(to bottom, green, #3E6D3E);
+    background: linear-gradient(
+        to bottom, 
+        #3E6D3E,
+        rgb(147, 1, 147), 
+        rgb(46, 0, 46)
+    );
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +87,7 @@ body {
 
 #navbar-3 a {
     text-decoration: none;
-    color: white;
+    color: #FD6924;
     padding: 24px;
 }
 
@@ -92,8 +97,8 @@ body {
 }
 
 #navbar-3 .cta-button {
-    background-color: white;
-    color: green;
+    background-color: orange;
+    color: rgb(147, 1, 147);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -110,13 +115,25 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background: radial-gradient(orange, #CC021A);
     display: flex;
     justify-content: space-between;
 }
 
 #navbar-bottom a {
     text-decoration: none;
-    color: white;
+    color: #390039;
     padding: 12px 36px;
+}
+
+#top-section #name-3 {
+    color: #8A4985;
+    background: linear-gradient(rgb(253, 233, 196), orange);
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 25px;
 }
