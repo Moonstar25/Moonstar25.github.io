@@ -35,8 +35,8 @@ body {
 #navbar-2 {
     background: linear-gradient(
         to bottom, 
-        rgb(230, 187, 109), r
-        gb(255, 170, 12)
+        rgb(230, 187, 109), 
+        rgb(255, 170, 12)
     );
     display: flex;
     justify-content: space-between;
