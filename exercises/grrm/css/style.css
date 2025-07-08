@@ -91,14 +91,22 @@ body {
 #top-left-accent {
     border-width: 0px 2px 2px 0px;
     border-style: solid;
-    border-image: radial-gradient(ellipse 100px 250% at bottom right, #666666EE, #66666600 50%) 1;
+    border-image: radial-gradient(
+        ellipse 100px 250% at bottom right, 
+        #666666EE, 
+        #66666600 50%
+    ) 1;
 
 }
 
 #top-right-accent {
     border-width: 0px 0px 2px 2px;
     border-style: solid;
-    border-image: radial-gradient(ellipse 100px 250% at bottom left, #666666EE, #66666600 50%) 1;
+    border-image: radial-gradient(
+        ellipse 100px 250% at bottom left, 
+        #666666EE, 
+        #66666600 50%
+    ) 1;
 }
 
 #left-accent {
@@ -113,7 +121,6 @@ body {
     border-style: solid;
     border-image: linear-gradient(to bottom, #666666EE, #66666600 50%) 1;
 }
-
 
 /**************************************************************
     Header Styling
@@ -172,13 +179,13 @@ body {
 
 @keyframes spin {
     0% {
-    transform: scaleX(1);
+        transform: scaleX(1);
     }
     50% {
-    transform: scaleX(-1);
+        transform: scaleX(-1);
     }
     100% {
-    transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -236,7 +243,7 @@ body {
 /**************************************************************
     Banner and Cards Styling
 **************************************************************/
-#banner-container{
+#banner-container {
     margin: 0px 12px;
     padding: 8px;
 
@@ -415,7 +422,11 @@ body {
     Footer/Bottom Styling
 **************************************************************/
 #footer {
-    background: radial-gradient(ellipse 50% 80% at bottom center, #00000033, #00000000);
+    background: radial-gradient(
+        ellipse 50% 80% at bottom center, 
+        #00000033, 
+        #00000000
+    );
     border-width: 0px 0px 2px;
     border-style: solid;
     border-image: linear-gradient(to right, #66666611, #333333EE, #66666611) 1;
@@ -440,6 +451,7 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 
+/* "tablet" breakpoint  */
 @media screen and (max-width: 1000px) and (min-width: 800px) {
     body {
         background: green;
@@ -457,12 +469,43 @@ body {
             "bottom  bottom  bottom";
     }
 
-    #flex-width-example {
-        flex: 150px;
+    #header h1 {
+        font-size: 50px;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 190px;
     }
 }
 
+/* "mobile" breakpoint  */
 @media screen and (max-width: 800px) {
+    body {
+        background: red;
+    }
+
+    #shield-image {
+        display: none;
+    }
+
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header  header  header"
+            "navbar  navbar  navbar"
+            "banner  banner  banner"
+            "card-1"  
+            "card-2"  
+            "card-3"
+            "aside   blog    blog"
+            "footer  footer  footer"
+            "bottom  bottom  bottom";
+    }
+
     #banner-container,
     #card-1,
     #card-2,
