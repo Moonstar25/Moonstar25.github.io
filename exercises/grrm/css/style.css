@@ -453,9 +453,6 @@ body {
 
 /* "tablet" breakpoint  */
 @media screen and (max-width: 1000px) and (min-width: 800px) {
-    body {
-        background: green;
-    }
 
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
@@ -484,30 +481,51 @@ body {
 
 /* "mobile" breakpoint  */
 @media screen and (max-width: 800px) {
-    body {
-        background: red;
-    }
-
+    
     #shield-image {
         display: none;
     }
 
+    #search-bar {
+        display: none;
+    }
+
+    #search-button {
+        display: none;
+    }
+
     #header h1 {
+        margin: 0px;
         font-size: 40px;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
     }
 
     #grid-layout {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "header  header  header"
-            "navbar  navbar  navbar"
-            "banner  banner  banner"
+            "header"
+            "navbar"
+            "banner"
             "card-1"  
             "card-2"  
             "card-3"
-            "aside   blog    blog"
-            "footer  footer  footer"
-            "bottom  bottom  bottom";
+            "aside"   
+            "blog"
+            "footer" 
+            "bottom";
+    }
+
+    #nav {
+        flex-wrap: wrap;
+        
+    }
+
+    #nav a {
+        flex: 200px;
     }
 
     #banner-container,
