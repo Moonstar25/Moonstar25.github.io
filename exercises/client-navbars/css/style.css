@@ -29,7 +29,7 @@ body {
     margin-right: auto;
     font-size: 27px;
     font-weight: bold;
-    color: rgb(39, 232, 39);
+    color: rgb(0, 58, 0);
 }
 
 #navbar-2 {
@@ -76,9 +76,8 @@ body {
 #navbar-3 {
     background: linear-gradient(
         to bottom, 
-        #3E6D3E,
-        rgb(147, 1, 147), 
-        rgb(46, 0, 46)
+        rgb(177, 1, 177),
+        rgb(128, 0, 128) 
     );
     display: flex;
     justify-content: space-between;
@@ -115,7 +114,7 @@ body {
 }
 
 #navbar-bottom {
-    background: radial-gradient(orange, #CC021A);
+    background-color: #CC021A;
     display: flex;
     justify-content: space-between;
 }
