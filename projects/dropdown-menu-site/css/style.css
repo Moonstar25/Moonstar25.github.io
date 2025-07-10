@@ -5,6 +5,73 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/pokeball.jpg");
+    background-size: cover;
+}
+
+#navbar {
+    background: linear-gradient(
+        to top,
+        red,
+        rgb(249, 137, 137)
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(
+        to bottom,
+        red,
+        rgb(249, 137, 137)
+    );
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: crimson;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: rgb(254, 176, 176);
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
 }
 
 #hero {
@@ -13,4 +80,32 @@ body {
     background-size: cover;
     background-position: center 20%;
     position: relative;
+    z-index: -1;
+}
+
+#adopt-layout {
+    background-color: #de4a4acc;
+    border-radius: 60px;
+    padding: 24px 48px;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#adopt-layout h2 {
+    color: white;
+}
+
+#adopt-layout h1 {
+    font-size: 60px;
+    color: white;
+}
+
+#adopt-layout p {
+    font-size: 24px;
+    color: white;
+}
+
+#adopt-layout img {
+    width: 100%;
 }
