@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#hover-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hover-gallery .card {
+    flex: 300px;
+    min-height: 250px;
+    margin: 24px;
+    text-align: center;
+    position: relative;
+}
