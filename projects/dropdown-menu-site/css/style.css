@@ -104,6 +104,8 @@ body {
 #adopt-layout p {
     font-size: 24px;
     color: white;
+    padding: 11px 24px;
+    margin: 12px 24px;
 }
 
 #adopt-layout img {
@@ -118,4 +120,31 @@ body {
 #adopt-layout img:hover {
     box-shadow: 0px 4px 4px white;
     transform: translateY(-4px);
+}
+
+#logo i {
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 630px) {
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #navbar #logo {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .dropdown-container .dropdown-menu {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    .dropdown-container i {
+        transform: rotate(-90deg);
+    }
 }
