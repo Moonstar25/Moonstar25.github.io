@@ -108,4 +108,14 @@ body {
 
 #adopt-layout img {
     width: 100%;
+    border-radius: 60px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#adopt-layout img:hover {
+    box-shadow: 0px 4px 4px white;
+    transform: translateY(-4px);
 }
