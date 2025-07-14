@@ -22,6 +22,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 21px;
 }
 
 #navbar #logo {
@@ -100,4 +101,61 @@ img {
     font-size: 40px;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.single-column {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.side-by-side {
+    align-items: center;
+    margin: 88px 0px;
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    margin-bottom: 55px;
+    margin-right: 25px;
+    order: 1;
+}
+
+.image-container img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+.text-container {
+    flex: 1;
+    padding: 36px;
+    margin-bottom: 55px;
+    order: 1;
+    margin-left: 0px;
+}
+
+.side-by-side-2 {
+    align-items: center;
+    margin: 88px 0px;
+    display: flex;
+}
+
+.text-container-2 {
+    flex: 1;
+    padding: 36px;
+    margin-bottom: 55px;
+    order: 2;
+    margin-right: 0px;
+}
+
+.image-container-2 {
+    flex: 1;
+    margin-bottom: 55px;
+    margin-left: 25px;
+    order: 2;
+}
+
+.image-container-2 img {
+    border-radius: 24px;
+    width: 100%;
 }
