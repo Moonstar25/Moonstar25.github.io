@@ -24,6 +24,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 24px;
 }
 
 #navbar #logo {
@@ -84,7 +85,7 @@ body {
 }
 
 #adopt-layout {
-    background-color: #de4a4acc;
+    background-color: #de4a4a;
     border-radius: 60px;
     padding: 24px 48px;
     max-width: 800px;
@@ -102,7 +103,7 @@ body {
 }
 
 #adopt-layout p {
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     padding: 11px 24px;
     margin: 12px 24px;
@@ -126,7 +127,7 @@ body {
     vertical-align: bottom;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 720px) {
     #navbar {
         flex-direction: column;
         text-align: center;
