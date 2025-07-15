@@ -181,10 +181,6 @@ img {
     color: #008A5F;
 }
 
-.menu-container {
-    display: flex; 
-}
-
 .center-column {
     display: flex;
     flex-direction: column;
@@ -225,6 +221,9 @@ img {
 }
 
 .menu-container {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
     background-color: #008A5F;
     color: white;
     padding: 12px;
@@ -234,6 +233,25 @@ img {
 
 .image-container-sushi img {
     border-radius: 24px;  
+    width: 150px;
+}
+
+.card {
+    flex: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h3 {
+    margin-right: 40px;
+}
+.card p {
+    margin-top: 21px;
+}
+
+.image-container-appetizers img {
+    width: 160px;
+    border-radius: 24px;
 }
 
 @media screen and (max-width: 670px) {
