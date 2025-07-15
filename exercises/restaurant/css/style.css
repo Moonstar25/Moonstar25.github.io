@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Kdam+Thmor+Pro&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +7,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/bamboo-leaves.jpg");
+    background-size: cover;
 }
 
 #navbar {
@@ -111,12 +115,12 @@ img {
 
 .side-by-side {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 48px 0px;
 }
 
 .image-container {
-    flex: 1;
     margin-bottom: 55px;
     margin-right: 25px;
     order: 1;
@@ -125,7 +129,7 @@ img {
 .side-by-side .image-container img {
     border-radius: 24px;
     width: 100%;
-    margin-left: 17px;
+    margin: 0px 17px;
 }
 
 .text-container {
@@ -148,6 +152,12 @@ img {
     margin-bottom: 24px;
 }
 
+.text-container p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Baskervville", serif;
+}
+
 .side-by-side .text-container a {
     font-size: 28px;
     font-weight: bold;
@@ -157,4 +167,78 @@ img {
     color: white;
     padding: 12px 24px;
     border-radius: 48px;
+}
+
+#menu-layout {
+    max-width: 1000px;
+    padding: 24px;
+}
+
+#menu-layout h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #008A5F;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.center-column .image-container-promo img {
+    width: 50%;
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+
+.center-column .text-container-promo {
+    background-color: #008A5F;
+    border-radius: 24px;
+    margin: 0px;
+}
+
+.center-column h4 {
+    font-size: 30px;
+}
+
+.center-column h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.center-column .text-container-promo p {
+    font-size: 16px;
+    font-family: "Baskervville", serif;
+    color: white;
+}
+
+#card-layout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-container {
+    background-color: #008A5F;
+    color: white;
+    padding: 12px;
+    border-radius: 24px;
+    margin-left: 24px;
+}
+
+.image-container-sushi img {
+    border-radius: 24px;  
+}
+
+@media screen and (max-width: 670px) {
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #navbar #logo {
+        flex-direction: column;
+        margin-right: 0px;
+    }
 }
