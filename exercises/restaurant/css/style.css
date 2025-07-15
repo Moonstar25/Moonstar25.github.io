@@ -92,8 +92,8 @@ img {
     font-size: 24px;
     font-weight: bold;
     background-color: red;
-    border-radius: 20px;
-    padding: 12px;
+    border-radius: 48px;
+    padding: 12px 24px;
 }
 
 .hero-layout h1 {
@@ -104,14 +104,15 @@ img {
 }
 
 .single-column {
+    min-width: 600px;
+    max-width: 1200px;
     margin: 0px auto;
-    text-align: center;
 }
 
 .side-by-side {
-    align-items: center;
-    margin: 88px 0px;
     display: flex;
+    align-items: center;
+    margin: 48px 0px;
 }
 
 .image-container {
@@ -121,41 +122,39 @@ img {
     order: 1;
 }
 
-.image-container img {
+.side-by-side .image-container img {
     border-radius: 24px;
     width: 100%;
+    margin-left: 17px;
 }
 
 .text-container {
-    flex: 1;
-    padding: 36px;
     margin-bottom: 55px;
     order: 1;
     margin-left: 0px;
 }
 
-.side-by-side-2 {
-    align-items: center;
-    margin: 88px 0px;
-    display: flex;
+.side-by-side .image-container {
+    flex: 1;
 }
 
-.text-container-2 {
+.side-by-side .text-container {
     flex: 1;
     padding: 36px;
-    margin-bottom: 55px;
-    order: 2;
-    margin-right: 0px;
 }
 
-.image-container-2 {
-    flex: 1;
-    margin-bottom: 55px;
-    margin-left: 25px;
-    order: 2;
+.text-container h3 {
+    font-size: 35px;
+    margin-bottom: 24px;
 }
 
-.image-container-2 img {
-    border-radius: 24px;
-    width: 100%;
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 48px;
 }
