@@ -172,12 +172,17 @@ img {
 #menu-layout {
     max-width: 1000px;
     padding: 24px;
+    margin: 0px auto;
 }
 
 #menu-layout h1 {
     font-size: 50px;
     text-align: center;
     color: #008A5F;
+}
+
+.menu-container {
+    display: flex; 
 }
 
 .center-column {
