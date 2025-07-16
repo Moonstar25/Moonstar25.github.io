@@ -245,6 +245,14 @@ img {
     padding: 36px;
     text-align: center;
     margin: 36px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+.card:hover {
+    background-color: #02d18f;
+    box-shadow: 4px 5px 4px #006243;
 }
 
 .card h3 {
