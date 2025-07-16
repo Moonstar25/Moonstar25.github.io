@@ -12,6 +12,11 @@ h2 {
     text-align: center;
 }
 
+p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
 #hover-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -23,4 +28,82 @@ h2 {
     margin: 24px;
     text-align: center;
     position: relative;
+}
+
+#mario {
+    background-image: url("../images/mario-jump.webp");
+    background-size: cover;
+    border-radius: 12px;
+    background-position: center -80px;
+    background-color: red;
+    position: absolute;
+}
+
+#mario:hover {
+    opacity: 0.5;
+}
+
+#mario {
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#mario p {
+    color: red;
+}
+
+.card .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+.card:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+}
+
+#sonic {
+    background-image: url("../images/sonic-speed.webp");
+    background-size: cover;
+    border-radius: 12px;
+    background-position: center -30;
+    background-color: blue;
+    position: absolute;
+}
+
+#sonic:hover {
+    opacity: 0.5;
+}
+
+#sonic {
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#sonic p {
+    color: blue;
+}
+
+.card .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+.card:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
 }
