@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Kdam+Thmor+Pro&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(32, 114, 32, 0.874);
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.center-column h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 100px;
+}
+
+.team img {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.vs h2 {
+    text-align: center;
+    color: white;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 48px auto;
+}
+
+.action a {
+    text-decoration: none;
+    background-color: rgb(199, 1, 1);
+    color: white;
+    padding: 24px;
+    border: 3px solid rgb(222, 161, 5);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.action a:hover {
+    background-color: rgb(253, 126, 126);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.question h4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
