@@ -17,6 +17,7 @@
         rgb(232, 115, 37), 
         rgb(253, 228, 212)
     );
+    box-shadow:  4px 10px 10px #00000094;
 }
 
 #left-side {
@@ -87,7 +88,7 @@
 }
 
 #right-side img {
-    width: 125%;
+    width: 115%;
 }
 
 #donor {
@@ -136,6 +137,8 @@ h4 {
     text-align: center;
     background-color: navy;
     padding: 18px 0px;
+    margin-bottom: 17px;
+    margin-top: 0px;
 }
 
 #small-pic-container img {
