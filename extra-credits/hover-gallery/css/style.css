@@ -89,21 +89,50 @@ p {
 }
 
 #sonic p {
-    color: blue;
+    color: rgb(127, 127, 254);
 }
 
-.card .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px); 
-    transition:
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s; 
+#sailor-moon {
+    background-image: url("../images/sailor-moon.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    background-position: center;
+    position: absolute;
 }
 
-.card:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px); 
+#sailor-moon:hover {
+    opacity: 0.5;
+}
+
+#sailor-moon {
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#sailor-moon p {
+    color: yellow;
+}
+
+#godzilla {
+    background-image: url("../images/goji-roar.webp");
+    background-size: cover;
+    border-radius: 12px;
+    background-position: center 10%;
+    background-color: grey;
+    position: absolute;
+}
+
+#godzilla:hover {
+    opacity: 0.5;
+}
+
+#godzilla {
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#godzilla p {
+    color: navy;
 }
