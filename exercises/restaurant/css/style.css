@@ -8,6 +8,10 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-image: url("../images/bamboo-leaves.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -105,9 +109,13 @@ img {
     font-size: 40px;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffffa7;
+    padding: 24px;
 }
 
 .single-column {
+    display: flex;
+    flex-wrap: wrap;
     min-width: 600px;
     max-width: 1200px;
     margin: 0px auto;
@@ -221,6 +229,13 @@ img {
     margin: 24px;
 }
 
+#card-layout img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
 .menu-container {
     display: flex; 
     flex-direction: column;
@@ -231,11 +246,6 @@ img {
     border-radius: 24px;
     flex: 1;
     margin: 12px;
-}
-
-.image-container-sushi img {
-    border-radius: 24px; 
-    min-width: 75%; 
 }
 
 .card {
@@ -267,16 +277,11 @@ img {
     margin-top: 21px;
 }
 
-.image-container-appetizers img {
-    border-radius: 24px; 
-    min-width: 75%;  
-}
-
 div .menu-container {
     margin-top: 0px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 800px) {
     #navbar {
         flex-direction: column;
         text-align: center;
@@ -285,5 +290,48 @@ div .menu-container {
     #navbar #logo {
         flex-direction: column;
         margin-right: 0px;
+    }
+
+    #footer-navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navbar a {
+        margin: 12px;
+    }
+
+    #footer-navbar span {
+        margin: 12px;
+    }
+
+    #single-column .side-by-side {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .text-container h3 {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .side-by-side .text-container a {
+        font-size: 18px;
+    }
+
+    .image-container {
+        margin-bottom: 55px;
+        margin-right: 25px;
+        order: 0;
+        margin: 12px 50px;
+    }
+
+    .text-container h3 {
+        font-size: 28px;
+        margin-top: 0px;
     }
 }
