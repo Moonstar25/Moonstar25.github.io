@@ -316,6 +316,7 @@ div .menu-container {
     .text-container h3 {
         font-size: 30px;
         margin-bottom: 24px;
+        margin-top: auto;
     }
 
     .image-container {
