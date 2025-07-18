@@ -74,7 +74,7 @@ function reactToJumpDownButton() {
 }
 
 function reactToJumpUpButton() {
-    jumpup(2);
+    jumpUp(2);
 }
 
 function reactToJumpButton() {
