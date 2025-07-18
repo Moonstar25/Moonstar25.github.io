@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-main {
+    background: linear-gradient(
+        to bottom, 
+        rgb(177, 1, 177),
+        rgb(128, 0, 128) 
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-main a {
+    text-decoration: none;
+    color: #FD6924;
+    padding: 24px;
+}
+
+#navbar-main #name-3 {
+    margin-right: auto;
+    font-size: 40px;
+}
+
+#navbar-main .cta-button {
+    background-color: orange;
+    color: rgb(147, 1, 147);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#top-section #name-3 {
+    color: #8A4985;
+    background: linear-gradient(rgb(253, 233, 196), orange);
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+#navbar-bottom {
+    background-color: #CC021A;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: #390039;
+    padding: 12px 36px;
+}
